@@ -1,5 +1,11 @@
+import { Header } from './components/header'
+
 export function App() {
   return (
-    <h1>Hello world</h1>
+    <div className="min-h-screen flex flex-col">
+      <Header />
+
+      {/* <div className="flex-1">oi</div> */}
+    </div>
   )
 }
