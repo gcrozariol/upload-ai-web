@@ -3,6 +3,10 @@ import { Button } from '../ui/button'
 import { Separator } from '../ui/separator'
 
 export function Header() {
+  function handleOnClickGitHub() {
+    window.open('https://github.com/gcrozariol/upload-ai-web', '_blank')
+  }
+
   return (
     <div className="px-6 py-3 flex items-center justify-between border-b">
       <h1 className="text-xl font-bold">upload.ai</h1>
@@ -14,7 +18,7 @@ export function Header() {
 
         <Separator orientation="vertical" className="h-6" />
 
-        <Button variant="outline">
+        <Button variant="outline" onClick={handleOnClickGitHub}>
           <Github className="w-4 h-4 mr-2" />
           GitHub
         </Button>
