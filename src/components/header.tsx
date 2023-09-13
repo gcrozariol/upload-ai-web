@@ -1,7 +1,7 @@
 import { Github } from 'lucide-react'
-import { Button } from '../ui/button'
-import { Separator } from '../ui/separator'
-import { ModeToggle } from '../mode-toggle'
+import { Button } from './ui/button'
+import { Separator } from './ui/separator'
+import { ModeToggle } from './mode-toggle'
 
 export function Header() {
   function handleOnClickGitHub() {
