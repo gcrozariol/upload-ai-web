@@ -1,6 +1,7 @@
 import { Github } from 'lucide-react'
-import { Button } from '../ui/button'
-import { Separator } from '../ui/separator'
+import { Button } from './ui/button'
+import { Separator } from './ui/separator'
+import { ModeToggle } from './mode-toggle'
 
 export function Header() {
   function handleOnClickGitHub() {
@@ -22,6 +23,8 @@ export function Header() {
           <Github className="w-4 h-4 mr-2" />
           GitHub
         </Button>
+
+        <ModeToggle />
       </div>
     </div>
   )
