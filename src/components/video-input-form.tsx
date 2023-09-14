@@ -21,7 +21,11 @@ const statusMessages = {
   success: 'Success!',
 }
 
-export function VideoInputForm() {
+interface VideoInputFormProps {
+  onVideoUploded: (videoId: string) => void
+}
+
+export function VideoInputForm({ onVideoUploded }: VideoInputFormProps) {
   const [status, setStatus] = useState<Status>('waiting')
   const [videoFile, setVideoFile] = useState<File | null>(null)
 
@@ -99,7 +103,7 @@ export function VideoInputForm() {
 
     setStatus('success')
 
-    console.log('Done.')
+    onVideoUploded(videoId)
   }
 
   function handleSelectedFile(event: ChangeEvent<HTMLInputElement>) {
