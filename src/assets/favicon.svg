@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Artboard</title>
+    <g id="Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="tv" transform="translate(2.000000, 2.000000)" stroke="#D2D2D2" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+            <rect id="Rectangle" x="0" y="11" width="46" height="35" rx="2"></rect>
+            <polyline id="Path" points="35 0 23.5 12 12 0"></polyline>
+        </g>
+        <g id="AI" transform="translate(15.979492, 22.967773)" fill="#D2D2D2" fill-rule="nonzero">
+            <path d="M9.47460938,8.87988281 L6.82910156,1.90722656 L4.30664062,8.87988281 L9.47460938,8.87988281 Z M14.0478516,15.0322266 L11.8022461,15.0322266 L10.059082,10.4589844 L3.76318359,10.4589844 L2.10205078,15.0322266 L0,15.0322266 L5.77294922,0 L7.91601562,0 L14.0478516,15.0322266 Z" id="Shape"></path>
+            <polygon id="Path" points="17.9545898 15.0322266 15.9550781 15.0322266 15.9550781 0 17.9545898 0"></polygon>
+        </g>
+    </g>
+</svg>
