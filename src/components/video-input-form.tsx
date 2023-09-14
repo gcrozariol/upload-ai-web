@@ -1,11 +1,16 @@
-import { Label } from '@radix-ui/react-label'
-import { Separator } from '@radix-ui/react-separator'
-import { FileVideo, Upload } from 'lucide-react'
-import { Button } from './ui/button'
-import { Textarea } from './ui/textarea'
 import { ChangeEvent, useState, useMemo, FormEvent, useRef } from 'react'
+
 import { getFFmpeg } from '@/lib/ffmpeg'
 import { fetchFile } from '@ffmpeg/util'
+import { FileVideo, Upload } from 'lucide-react'
+
+import { Label } from '@radix-ui/react-label'
+import { Separator } from '@radix-ui/react-separator'
+
+import { Button } from './ui/button'
+import { Textarea } from './ui/textarea'
+
+import { api } from '@/lib/axios'
 
 export function VideoInputForm() {
   const [videoFile, setVideoFile] = useState<File | null>(null)
@@ -61,7 +66,21 @@ export function VideoInputForm() {
 
     const audioFile = await convertVideoToAudio(videoFile)
 
-    console.log(audioFile, prompt)
+    if (!audioFile) return
+
+    const data = new FormData()
+
+    data.append('file', audioFile)
+
+    const response = await api.post('/videos', data)
+
+    const videoId = response.data.video.id
+
+    await api.post(`/videos/${videoId}/transcription`, {
+      prompt,
+    })
+
+    console.log('Done.')
   }
 
   function handleSelectedFile(event: ChangeEvent<HTMLInputElement>) {
