@@ -1,0 +1,11 @@
+{
+  "hosting": {
+    "site": "gcrozariol-upload-ai",
+    "public": "dist",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
