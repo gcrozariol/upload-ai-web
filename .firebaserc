@@ -1,0 +1,15 @@
+{
+  "projects": {
+    "default": "gcrozariol-app"
+  },
+  "targets": {
+    "gcrozariol-app": {
+      "hosting": {
+        "upload-ai": [
+          "gcrozariol-upload-ai"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}
