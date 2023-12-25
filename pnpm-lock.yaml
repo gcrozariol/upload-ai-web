@@ -33,8 +33,8 @@ dependencies:
     specifier: ^1.0.2
     version: 1.0.2(@types/react@18.2.38)(react@18.2.0)
   ai:
-    specifier: ^2.2.25
-    version: 2.2.25(react@18.2.0)(solid-js@1.7.11)(svelte@4.2.0)(vue@3.3.4)
+    specifier: ^2.2.30
+    version: 2.2.30(react@18.2.0)(solid-js@1.7.11)(svelte@4.2.0)(vue@3.3.4)
   axios:
     specifier: ^1.6.2
     version: 1.6.2
@@ -1859,8 +1859,8 @@ packages:
     engines: {node: '>=0.4.0'}
     hasBin: true
 
-  /ai@2.2.25(react@18.2.0)(solid-js@1.7.11)(svelte@4.2.0)(vue@3.3.4):
-    resolution: {integrity: sha512-iXu3pzPpDPBGDir8hz86FAJmJTynMfBH4V/DXyR3GGeaHOfjdrErlcMm862CSalR6PDMwDOSCQVwJqtdnvIncQ==}
+  /ai@2.2.30(react@18.2.0)(solid-js@1.7.11)(svelte@4.2.0)(vue@3.3.4):
+    resolution: {integrity: sha512-7dRgnEbYkbVjxyjiS7WEhNvO8ebeI4Om74D9OKXLK0yis4+s272pJ5I3vOAv3HaUBbVEiIFYQ7E34JH8XT1EeQ==}
     engines: {node: '>=14.6'}
     peerDependencies:
       react: ^18.2.0
