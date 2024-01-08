@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@ffmpeg/ffmpeg':
-    specifier: ^0.12.9
-    version: 0.12.9
+    specifier: ^0.12.10
+    version: 0.12.10
   '@ffmpeg/util':
     specifier: ^0.12.1
     version: 0.12.1
@@ -401,8 +401,8 @@ packages:
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     dev: true
 
-  /@ffmpeg/ffmpeg@0.12.9:
-    resolution: {integrity: sha512-0UB7e8+nL9t8tBjQzSgh2dbA5XycLfL2nkR+4dP3HB4Dmog8fKeSRZpAVX9dT8Q9EJcBwJDR2dRL/0bt5UCiuQ==}
+  /@ffmpeg/ffmpeg@0.12.10:
+    resolution: {integrity: sha512-lVtk8PW8e+NUzGZhPTWj2P1J4/NyuCrbDD3O9IGpSeLYtUZKBqZO8CNj1WYGghep/MXoM8e1qVY1GztTkf8YYQ==}
     engines: {node: '>=18.x'}
     dependencies:
       '@ffmpeg/types': 0.12.2
