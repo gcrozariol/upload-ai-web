@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@ffmpeg/ffmpeg':
-        specifier: ^0.12.10
-        version: 0.12.10
+        specifier: ^0.12.13
+        version: 0.12.13
       '@ffmpeg/util':
         specifier: ^0.12.1
         version: 0.12.1
@@ -306,12 +306,12 @@ packages:
     resolution: {integrity: sha512-d9zaMRSTIKDLhctzH12MtXvJKSSUhaHcjV+2Z+GK+EEY7XKpP5yR4x+N3TAcHTcu963nIr+TMcCb4DBCYX1z6Q==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
 
-  '@ffmpeg/ffmpeg@0.12.10':
-    resolution: {integrity: sha512-lVtk8PW8e+NUzGZhPTWj2P1J4/NyuCrbDD3O9IGpSeLYtUZKBqZO8CNj1WYGghep/MXoM8e1qVY1GztTkf8YYQ==}
+  '@ffmpeg/ffmpeg@0.12.13':
+    resolution: {integrity: sha512-DX5xvpxkV0QaHIJRMRiz8zfh4mJO01rPKrpXgIzHWSB0A58YMUvbBJxHs4cSJPcX1Lar7HK6RAi28ObsUe7V8A==}
     engines: {node: '>=18.x'}
 
-  '@ffmpeg/types@0.12.2':
-    resolution: {integrity: sha512-NJtxwPoLb60/z1Klv0ueshguWQ/7mNm106qdHkB4HL49LXszjhjCCiL+ldHJGQ9ai2Igx0s4F24ghigy//ERdA==}
+  '@ffmpeg/types@0.12.3':
+    resolution: {integrity: sha512-WK01NqTfFfdXxxVD2+OQnd6LQp4ahWq2kjIh/eVoTo43Lo9ICI5nLOItg/1rcIvOuM7J1ANWTBazWGBKk1kACA==}
     engines: {node: '>=16.x'}
 
   '@ffmpeg/util@0.12.1':
@@ -2896,11 +2896,11 @@ snapshots:
 
   '@eslint/js@8.57.1': {}
 
-  '@ffmpeg/ffmpeg@0.12.10':
+  '@ffmpeg/ffmpeg@0.12.13':
     dependencies:
-      '@ffmpeg/types': 0.12.2
+      '@ffmpeg/types': 0.12.3
 
-  '@ffmpeg/types@0.12.2': {}
+  '@ffmpeg/types@0.12.3': {}
 
   '@ffmpeg/util@0.12.1': {}
 
